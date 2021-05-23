@@ -10,7 +10,7 @@ public class BMICalculator extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("BMICalculator.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("bmiCalculator.fxml"));
         primaryStage.setTitle("BMI Calculator");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
