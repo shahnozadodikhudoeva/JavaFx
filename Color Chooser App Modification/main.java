@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class AdvancedColorChooser extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("AdvancedColorChooser.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("colorChooser.fxml"));
 
         Scene scene = new Scene(root);
         stage.setTitle("Color Chooser App Modification");
